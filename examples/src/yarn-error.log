@@ -1,0 +1,46 @@
+Arguments: 
+  /home/horacio/opt/node-v8.1.4-linux-x64/bin/node /usr/share/yarn/bin/yarn.js install --flat
+
+PATH: 
+  /home/horacio/opt/google-cloud-sdk/bin:/opt/go/bin:/opt/node/bin:~/.pub-cache/bin:/usr/lib/dart/bin:/opt/java8/bin:/opt/ant/bin:/opt/flutter/bin:/opt/webstorm/bin:~/.pub-cache/bin:/home/horacio/.sdkman/candidates/springboot/current/bin:/home/horacio/.sdkman/candidates/kotlin/current/bin:/home/horacio/.sdkman/candidates/groovy/current/bin:/home/horacio/.sdkman/candidates/gradle/current/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.1.4
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "granite-css-modularizer-examples",
+    "authors": [
+      "Horacio Gonzalez <horacio.gonzalez@gmail.com>"
+    ],
+    "description": "Some examples to test granite-css-modularizer",
+    "version": "1.0.0",
+    "repository": "LostInBrittany/granite-css-modularizer",
+    "main": "granite-css-modularizer.js",
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "^4.0.0-beta.2",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /home/horacio/git/polymer/elements/granite-elements/tools/granite-css-modularizer/examples/src/package.json: Unexpected token } in JSON at position 398
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:770:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:92:30)
+      at /usr/share/yarn/lib/cli.js:103:13
+      at <anonymous>

@@ -1,0 +1,17 @@
+{
+  "name": "granite-css-modularizer-examples",
+  "authors": [
+    "Horacio Gonzalez <horacio.gonzalez@gmail.com>"
+  ],
+  "description": "Some examples to test granite-css-modularizer",
+  "version": "1.0.0",
+  "repository": "LostInBrittany/granite-css-modularizer",
+  "main": "granite-css-modularizer.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "prismjs": "^1.8.3"
+  }
+}

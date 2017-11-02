@@ -1,0 +1,16 @@
+{
+  "name": "granite-css-modularizer",
+  "authors": [
+    "Horacio Gonzalez <horacio.gonzalez@gmail.com>"
+  ],
+  "description": "A script to generate Polymer style modules from CSS files",
+  "version": "1.0.0",
+  "repository": "LostInBrittany/granite-css-modularizer",
+  "main": "granite-css-modularizer.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fs-extra": "^4.0.0",
+    "klaw": "^2.1.0"
+  }
+}
